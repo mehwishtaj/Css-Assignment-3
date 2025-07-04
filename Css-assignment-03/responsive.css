@@ -1,0 +1,162 @@
+/* Responsive for tablets and below */
+@media (max-width: 1024px) {
+  header {
+    padding: 20px 30px;
+  }
+
+  nav ul {
+    gap: 40px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-content,
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-image img {
+    margin: 40px auto 0;
+  }
+
+  .contant,
+  .about,
+  .about4-contant,
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .hero2-img,
+  .hero2-text,
+  .about-img,
+  .about4-img,
+  .about4-text {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about h3,
+  .buton,
+  .about-section p {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .counter {
+    gap: 5em;
+    flex-wrap: wrap;
+  }
+
+  .fix-bgimg2 h1,
+  .fix-bgimg2 p {
+    padding: 0 40px;
+  }
+
+  .grid-container {
+    columns: 3 200px;
+  }
+
+  .contact-container form,
+  .contact-us-box {
+    width: 100%;
+  }
+
+  .foot {
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+  }
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .hero-content h1,
+  .hero-content span {
+    font-size: 32px;
+  }
+
+  .about-section h2,
+  .about4 h2,
+  .hero-two h2,
+  .head h2 {
+    font-size: 2em;
+  }
+
+  .about-img img,
+  .about4-img img {
+    width: 80%;
+    height: auto;
+  }
+
+  .fix-bgimg2 h1 {
+    font-size: 28px;
+  }
+
+  .fix-bgimg2 p {
+    font-size: 14px;
+  }
+
+  .grid-container {
+    columns: 2 150px;
+    /* height: auto; */
+  }
+
+  .footer-2 {
+    font-size: 18px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .hero-content h1,
+  .hero-content span {
+    font-size: 26px;
+  }
+
+  .btn1,
+  .btn2,
+  .btn {
+    padding: 10px 16px;
+    font-size: 0.9em;
+  }
+
+  .grid-container {
+    columns: 1 100%;
+  }
+
+  .counter {
+    gap: 2em;
+  }
+
+  .counter .items div {
+    font-size: 2.5em;
+  }
+
+  .footer-2 {
+    font-size: 16px;
+    padding: 1em 10px;
+  }
+
+  .foot {
+    flex-direction: column;
+    gap: 3em;
+    text-align: center;
+  }
+}
